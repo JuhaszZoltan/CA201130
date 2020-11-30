@@ -52,7 +52,7 @@ namespace CA201130
             Console.WriteLine("6. feladat:");
             foreach (var k in kategoriak)
             {
-                if(k.Eltuntek > (k.Eltuntek + k.Tulelok)* .6)
+                if (k.Eltuntek > (k.Eltuntek + k.Tulelok) * .6F)
                     Console.WriteLine($"\t{k.Nev}");
             }
         }
